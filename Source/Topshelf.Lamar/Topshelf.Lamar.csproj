@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Topshelf.Lamar provides extensions to construct your service class from your Lamar IoC container.</Description>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Habib Zaid</Authors>
+    <Copyright>Copyright © Habib Zaid 2019</Copyright>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>Topshelf.Lamar</AssemblyName>
+    <RootNamespace>Topshelf.Lamar</RootNamespace>
+    <PackageId>Topshelf.Lamar</PackageId>
+    <PackageProjectUrl>https://github.com/hobbs1210/Topshelf.Lamar</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hobbs1210/Topshelf.Lamar</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="3.0.4" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
