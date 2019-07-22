@@ -25,10 +25,10 @@ namespace Sample.Topshelf.Quartz.BackgroundJobs
 
                     s.UseQuartzLamar();
 
-                    /* s.ScheduleQuartzJob(q =>
-                         q.WithJob(() => JobBuilder.Create<SampleJob>().WithIdentity("SampleJob").Build())
-                             .AddTrigger(() => TriggerBuilder.Create().WithSimpleSchedule(builder => builder.WithIntervalInSeconds(5).RepeatForever()).Build())
-                         );*/
+                    s.ScheduleQuartzJob(q =>
+                        q.WithJob(() => JobBuilder.Create<SampleJob>().WithIdentity("SampleJob").Build())
+                            .AddTrigger(() => TriggerBuilder.Create().WithSimpleSchedule(builder => builder.WithIntervalInSeconds(5).RepeatForever()).Build())
+                        );
 
                     s.ScheduleQuartzJob(q =>
                         q.WithJob(() => JobBuilder.Create<WithInjectedDependenciesJob>().WithIdentity("WithInjectedDependenciesJob").Build())

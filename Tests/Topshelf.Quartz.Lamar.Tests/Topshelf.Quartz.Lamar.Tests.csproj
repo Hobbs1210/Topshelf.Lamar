@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="3.0.4" />
+    <PackageReference Include="Moq" Version="4.12.0" />
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\Topshelf.Lamar\Topshelf.Lamar.csproj" />
+    <ProjectReference Include="..\..\Source\Topshelf.Quartz.Lamar\Topshelf.Quartz.Lamar.csproj" />
+    <ProjectReference Include="..\Topshelf.Common.Tests\Topshelf.Common.Tests.csproj" />
+  </ItemGroup>
+</Project>

@@ -22,7 +22,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{3847
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Topshelf.Lamar", "Samples\Sample.Topshelf.Lamar\Sample.Topshelf.Lamar.csproj", "{A3C07DDB-72AA-45C6-88FD-E09D498FBDD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Topshelf.Quartz.BackgroundJobs", "Samples\Sample.Topshelf.Quartz.BackgroundJobs\Sample.Topshelf.Quartz.BackgroundJobs.csproj", "{DA917C99-36B8-491F-8CA1-29C3CFBF311C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Topshelf.Quartz.BackgroundJobs", "Samples\Sample.Topshelf.Quartz.BackgroundJobs\Sample.Topshelf.Quartz.BackgroundJobs.csproj", "{DA917C99-36B8-491F-8CA1-29C3CFBF311C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7347DF3D-9A9D-4617-A65C-674C8C518080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Lamar.Tests", "Tests\Topshelf.Lamar.Tests\Topshelf.Lamar.Tests\Topshelf.Lamar.Tests.csproj", "{0BF27ECF-21C1-4760-ABB1-C16342952AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Common.Tests", "Tests\Topshelf.Common.Tests\Topshelf.Common.Tests.csproj", "{53C4895C-FA47-41D9-88DA-775C307464FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Quartz.Lamar.Tests", "Tests\Topshelf.Quartz.Lamar.Tests\Topshelf.Quartz.Lamar.Tests.csproj", "{4739EB79-1D82-4BD2-964B-B4239DE0954D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +54,18 @@ Global
 		{DA917C99-36B8-491F-8CA1-29C3CFBF311C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA917C99-36B8-491F-8CA1-29C3CFBF311C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA917C99-36B8-491F-8CA1-29C3CFBF311C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF27ECF-21C1-4760-ABB1-C16342952AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF27ECF-21C1-4760-ABB1-C16342952AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF27ECF-21C1-4760-ABB1-C16342952AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF27ECF-21C1-4760-ABB1-C16342952AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C4895C-FA47-41D9-88DA-775C307464FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C4895C-FA47-41D9-88DA-775C307464FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C4895C-FA47-41D9-88DA-775C307464FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C4895C-FA47-41D9-88DA-775C307464FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4739EB79-1D82-4BD2-964B-B4239DE0954D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4739EB79-1D82-4BD2-964B-B4239DE0954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4739EB79-1D82-4BD2-964B-B4239DE0954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4739EB79-1D82-4BD2-964B-B4239DE0954D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +75,9 @@ Global
 		{663590FA-EC49-48D8-94CB-57D583260C07} = {1D7F0150-7E31-4DFA-A3CD-46744AD26B7A}
 		{A3C07DDB-72AA-45C6-88FD-E09D498FBDD4} = {3847B56B-0661-412C-AB30-BDCAA78EEBE8}
 		{DA917C99-36B8-491F-8CA1-29C3CFBF311C} = {3847B56B-0661-412C-AB30-BDCAA78EEBE8}
+		{0BF27ECF-21C1-4760-ABB1-C16342952AD5} = {7347DF3D-9A9D-4617-A65C-674C8C518080}
+		{53C4895C-FA47-41D9-88DA-775C307464FA} = {7347DF3D-9A9D-4617-A65C-674C8C518080}
+		{4739EB79-1D82-4BD2-964B-B4239DE0954D} = {7347DF3D-9A9D-4617-A65C-674C8C518080}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C884DDFA-83C8-4043-89AC-3B82D91569CA}
